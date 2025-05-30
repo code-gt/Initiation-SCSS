@@ -51,7 +51,7 @@ Voici le texte à inclure dans votre HTML :
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=4`
 
 - **Footer** :
-  - **Paragraphe** : "&copy; 2023 Atelier SCSS - Tous droits réservés"
+  - **Paragraphe** : "&copy; 2025 Code GT3D - Tous droits réservés"
 
 ## Consignes pour le SCSS
 
@@ -75,27 +75,20 @@ Ajouter un maximum de SCSS à votre projet pour tester le fonctionnement de l'im
 
 ### Mixin SCSS
 
-Utiliser un mixin pour générer des boutons sur votre page html. 
+Une mixin est un morceau de code paramétrable et réutilisable n’importe où dans votre fichier SASS. Comme pour une fonction, une mixin peut prendre des paramètres. Utiliser un mixin pour générer des boutons sur votre page html. 
 
-- Définition du Mixin : Le mixin `button-styles` est défini pour prendre une couleur d'arrière-plan en paramètre. Il applique des styles communs pour les boutons, comme le padding, la couleur de texte, et un effet de survol qui assombrit la couleur de fond.
+- Définition du **Mixin** : Le mixin `button-styles` est défini pour prendre une couleur d'arrière-plan en paramètre. Il applique des styles communs pour les boutons, comme le padding, la couleur de texte, et un effet de survol qui assombrit la couleur de fond.
 
-- Utilisation du Mixin : Vous pouvez inclure ce mixin dans vos styles pour différents boutons. Par exemple, `.button` utilise le mixin avec la couleur primaire, et `.secondary-button` utilise le mixin avec la couleur secondaire.
+- Utilisation du **Mixin** : Vous pouvez inclure ce mixin dans vos styles pour différents boutons. Par exemple, `.button` utilise le mixin avec la couleur primaire, et `.secondary-button` utilise le mixin avec la couleur secondaire.  
+
 
 ```scss
-// Définissez un mixin pour des styles de bouton réutilisables
+
 @mixin button-styles($bg-color) {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: $bg-color;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  transition: background-color 0.3s ease;
+    // code
 
   &:hover {
-    background-color: darken($bg-color, 10%);
+    // code
   }
 }
 
