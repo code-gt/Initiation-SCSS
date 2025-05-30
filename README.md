@@ -63,6 +63,16 @@ Créez un fichier SCSS et définissez trois variables pour les couleurs et la ta
 - Une variable `$secondary-color` pour la couleur secondaire.
 - Une variable `$base-font-size` pour la taille de base de la police.
 
+Exemple : 
+
+```scss
+$primary-color: #DD8734;
+
+h2 {
+    color: $primary-color;
+}
+```
+
 Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant au maximum les variables créées :
 
 - Un `header` avec un arrière-plan de couleur primaire, du padding, et le texte centré.
@@ -75,7 +85,7 @@ Ajouter un maximum de SCSS à votre projet pour tester le fonctionnement de l'im
 
 ### Mixin SCSS
 
-Une mixin est un morceau de code paramétrable et réutilisable n’importe où dans votre fichier SASS. Comme pour une fonction, une mixin peut prendre des paramètres. Utiliser un mixin pour générer des boutons sur votre page html. 
+Une mixin est un morceau de code paramétrable et réutilisable n’importe où dans votre fichier SCSS. Comme pour une fonction, une mixin peut prendre des paramètres. Utiliser un mixin pour générer des boutons sur votre page html. 
 
 - Définition du **Mixin** : Le mixin `button-styles` est défini pour prendre une couleur d'arrière-plan en paramètre. Il applique des styles communs pour les boutons, comme le padding, la couleur de texte, et un effet de survol qui assombrit la couleur de fond.
 
