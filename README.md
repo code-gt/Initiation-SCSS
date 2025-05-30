@@ -4,6 +4,44 @@
 
 SCSS (Sassy CSS) est une extension de CSS qui permet d'utiliser des fonctionnalités avancées comme les variables, les mixins, et surtout l'imbrication. L'imbrication permet de structurer vos styles CSS de manière plus intuitive et lisible, en reflétant directement la hiérarchie du HTML. Cela rend le processus de stylisation plus efficace et maintenable.
 
+CSS classique :
+
+```css
+
+article {
+   width: 800px;
+   background: #F6F6F6;
+}
+
+article h2 {
+   color: #222;
+   font-size: 18px;
+}
+
+article p {
+   color : #444;
+   font-size: 13px;
+}
+
+Le même code en SCSS avec le principe d'imbrication :
+
+```scss
+article {
+  width: 800px;
+  background: #F6F6F6;
+
+  h2 {
+    color: #222;
+    font-size: 18px;
+  }
+
+  p {
+    color: #444;
+    font-size: 13px;
+  }
+}
+```
+
 ## Installation de Live Sass Compiler
 
 Pour compiler SCSS en CSS en temps réel dans Visual Studio Code, suivez ces étapes :
