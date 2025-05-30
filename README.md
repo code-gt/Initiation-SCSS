@@ -22,6 +22,7 @@ article p {
    color : #444;
    font-size: 13px;
 }
+```
 
 Le même code en SCSS avec le principe d'imbrication :
 
