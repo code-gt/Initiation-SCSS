@@ -120,6 +120,18 @@ Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant a
 - Un `footer` fixe avec une largeur de 100%, le texte centré, et un arrière-plan avec la couleur primaire foncée de 20%.
 - Des images centrées avec une largeur maximale de 100%.
 
+```scss
+$primary-color: #DD8734;
+
+h3 {
+color: darken($primary-color, 20%); // fonction SCSS qui assombrit la couleur de la variable de base
+}
+
+h4 {
+color: lighten($primary-color, 20%); // fonction SCSS qui éclaircit la couleur de la variable de base
+}
+```
+
 Ajouter un maximum de SCSS à votre projet pour tester le fonctionnement de l'imbrication et les variables. 
 
 ### Mixin SCSS
