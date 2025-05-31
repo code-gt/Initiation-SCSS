@@ -163,4 +163,51 @@ Une mixin est un morceau de code paramétrable et réutilisable n’importe où 
 }
 ```
 
+## SASS
+
+### Introduction
+
+SASS (Syntactically Awesome Style Sheets) et SCSS (Sassy CSS) sont deux syntaxes pour le préprocesseur CSS qui permettent d'écrire des styles de manière plus efficace et maintenable. La principale différence entre SASS et SCSS réside dans leur syntaxe.
+
+### Différences entre SASS et SCSS
+
+- **SASS** : Utilise une syntaxe concise sans accolades ni points-virgules. Elle repose sur l'indentation pour définir les blocs de styles, ce qui peut la rendre un peu moins familière pour ceux habitués au CSS traditionnel.
+
+- **SCSS** : Utilise une syntaxe plus proche du CSS standard, avec des accolades et des points-virgules. Cela la rend plus accessible et facile à adopter pour les développeurs habitués au CSS.
+
+Les deux syntaxes offrent des fonctionnalités avancées comme les variables, les mixins, les imbrications, et bien plus encore, mais SCSS est souvent préférée pour sa similitude avec CSS.
+
+### Exemple de SASS
+
+```sass
+\$primary-color: #3498db
+\$secondary-color: #2ecc71
+
+body
+  font-family: Arial, sans-serif
+  color: \$primary-color
+
+header
+  background-color: \$secondary-color
+  padding: 20px
+  text-align: center
+```
+
+### Exemple de SCSS
+
+```scss
+\$primary-color: #3498db;
+\$secondary-color: #2ecc71;
+
+body {
+  font-family: Arial, sans-serif;
+  color: \$primary-color;
+}
+
+header {
+  background-color: \$secondary-color;
+  padding: 20px;
+  text-align: center;
+}
+```
 
