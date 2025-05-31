@@ -12,7 +12,7 @@ Voici quelques-unes des balises sémantiques les plus couramment utilisées :
 
 `<nav>` : Utilisé pour définir un bloc de liens de navigation. Ce n'est pas nécessaire pour tous les groupes de liens, mais est destiné aux blocs principaux de liens de navigation.
 
-`<aside>` : Représente une partie d'une page qui consiste en un contenu qui est tangentiellement lié au contenu autour de l'élément <aside>, et qui pourrait être considéré comme séparé de ce contenu.
+`<aside>` : Représente une partie d'une page qui consiste en un contenu qui est tangentiellement lié au contenu autour de l'élément `<aside>` et qui pourrait être considéré comme séparé de ce contenu.
 
 `<main>` : Représente le contenu principal du document. Le contenu principal de la page doit être unique et ne doit pas inclure de contenu qui est répété sur plusieurs documents comme les barres latérales, les liens de navigation, les informations de copyright, les logos du site, et les formulaires de recherche.
 
