@@ -180,15 +180,15 @@ Les deux syntaxes offrent des fonctionnalités avancées comme les variables, le
 ### Exemple de SASS
 
 ```sass
-\$primary-color: #3498db
-\$secondary-color: #2ecc71
+$primary-color: #3498db
+$secondary-color: #2ecc71
 
 body
   font-family: Arial, sans-serif
-  color: \$primary-color
+  color: $primary-color
 
 header
-  background-color: \$secondary-color
+  background-color: $secondary-color
   padding: 20px
   text-align: center
 ```
@@ -196,16 +196,16 @@ header
 ### Exemple de SCSS
 
 ```scss
-\$primary-color: #3498db;
-\$secondary-color: #2ecc71;
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
 
 body {
   font-family: Arial, sans-serif;
-  color: \$primary-color;
+  color: $primary-color;
 }
 
 header {
-  background-color: \$secondary-color;
+  background-color: $secondary-color;
   padding: 20px;
   text-align: center;
 }
