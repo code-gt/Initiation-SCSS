@@ -16,6 +16,6 @@ Voici quelques-unes des balises sémantiques les plus couramment utilisées :
 
 `<main>` : Représente le contenu principal du document. Le contenu principal de la page doit être unique et ne doit pas inclure de contenu qui est répété sur plusieurs documents comme les barres latérales, les liens de navigation, les informations de copyright, les logos du site, et les formulaires de recherche.
 
-`<figure>` et '<figcaption>` : Utilisés pour associer une légende à une illustration, une image, un diagramme, etc. `<figure>` contient l'élément graphique et `<figcaption>` contient la légende.
+`<figure>` et `<figcaption>` : Utilisés pour associer une légende à une illustration, une image, un diagramme, etc. `<figure>` contient l'élément graphique et `<figcaption>` contient la légende.
 
 En utilisant ces balises sémantiques, vous rendez votre code HTML plus compréhensible et accessible, ce qui est bénéfique pour le référencement et l'expérience utilisateur.
