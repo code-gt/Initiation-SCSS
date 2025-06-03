@@ -117,7 +117,7 @@ Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant a
 - Un `header` avec un arrière-plan de couleur primaire, du padding, et le texte centré.
 - Des `article` de largeur fixe, avec margin et padding, et un `border-bottom` de couleur secondaire pour séparer les différents articles
 - Des titres `h2` de couleur secondaire.
-- Un `footer` fixe avec une largeur de 100%, le texte centré, et un arrière-plan avec la couleur primaire foncée de 20%.
+- Un `footer` en position fixe et `bottom` à 0 pour le caler en pied de page, puis du padding, une largeur de 100%, le texte centré, et un arrière-plan avec la couleur primaire foncée de 20%.
 - Des images centrées avec une largeur maximale de 100%.
 
 ```scss
