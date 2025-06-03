@@ -100,7 +100,7 @@ Créez un fichier SCSS et définissez trois variables pour les couleurs et la ta
 
 - Une variable `$primary-color` pour la couleur primaire.
 - Une variable `$secondary-color` pour la couleur secondaire.
-- Une variable `$base-font-size` pour la taille de base de la police.
+- Une variable `$font` pour la taille de base de la police.
 
 Exemple : 
 
@@ -115,8 +115,8 @@ h2 {
 Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant au maximum les variables créées :
 
 - Un `header` avec un arrière-plan de couleur primaire, du padding, et le texte centré.
-- Des `article` de largeur fixe, avec margin et padding, et un `border-bottom` pour séparer les différents articles
-- Des titres `h2` de couleur primaire.
+- Des `article` de largeur fixe, avec margin et padding, et un `border-bottom` de couleur secondaire pour séparer les différents articles
+- Des titres `h2` de couleur secondaire.
 - Un `footer` fixe avec une largeur de 100%, le texte centré, et un arrière-plan avec la couleur primaire foncée de 20%.
 - Des images centrées avec une largeur maximale de 100%.
 
