@@ -90,7 +90,7 @@ Voici le texte à inclure dans votre HTML :
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=4`
 
 - **Footer** :
-  - **Paragraphe** : "&copy; 2025 Code GT3D - Tous droits réservés"
+  - **Paragraphe** : "&copy; 2025 Code GT - Tous droits réservés"
 
 ## Consignes pour le SCSS
 
