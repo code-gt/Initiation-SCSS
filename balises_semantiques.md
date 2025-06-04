@@ -47,7 +47,7 @@ Voici un exemple de page HTML qui utilise ces balises sémantiques :
     <main>
         <article>
             <h2>Mon Premier Article</h2>
-            <p>Voici le contenu de mon premier article. Trop cool, non ?</p>
+            <p>Voici le contenu de mon premier article. Top, non ?</p>
         </article>
 
         <section>
@@ -62,7 +62,7 @@ Voici un exemple de page HTML qui utilise ces balises sémantiques :
     </main>
 
     <footer>
-        <p>&copy; 2023 Ma Page Trop Stylée. Tous droits réservés.</p>
+        <p>&copy; 2025 Ma Page. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
