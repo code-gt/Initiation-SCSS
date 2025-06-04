@@ -66,31 +66,43 @@ Utilisez les balises sémantiques suivantes pour structurer votre page :
 
 Voici le texte à inclure dans votre HTML :
 
-### Texte pour le HTML
+ ### Texte pour le HTML
 
 - **Titre principal dans le header** : "Le Chat de Mistral"
+- **Paragraphe d'introduction dans le header** : "Découvrez comment cette technologie révolutionnaire change notre interaction avec les machines."
+
 - **Article 1** :
   - **Titre** : "Qui est Le Chat de Mistral ?"
-  - **Paragraphe** : "Le Chat de Mistral est une application avancée d'intelligence artificielle développée pour interagir avec les utilisateurs de manière naturelle et intuitive."
+  - **Paragraphe 1** : "Le Chat de Mistral est une application avancée d'intelligence artificielle développée pour interagir avec les utilisateurs de manière naturelle et intuitive."
+  - **Paragraphe 2** : "Grâce à des algorithmes sophistiqués, il comprend et génère du langage humain, facilitant ainsi les échanges et les interactions."
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=1`
 
 - **Article 2** :
   - **Titre** : "Origines et Développement"
-  - **Paragraphe** : "Le Chat de Mistral a été développé par Mistral AI, une startup française basée à Paris."
+  - **Paragraphe 1** : "Le Chat de Mistral a été développé par Mistral AI, une startup française basée à Paris, pionnière dans le domaine de l'IA conversationnelle."
+  - **Paragraphe 2** : "L'objectif était de créer un assistant capable de comprendre et de générer des réponses en langage naturel, en utilisant des techniques avancées de traitement automatique du langage."
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=2`
 
 - **Article 3** :
   - **Titre** : "Avantages du Chat de Mistral"
-  - **Paragraphe** : "Le Chat de Mistral offre plusieurs avantages, notamment sa capacité à comprendre le contexte des conversations."
+  - **Liste des avantages** :
+    - "Compréhension contextuelle des conversations."
+    - "Réponses précises et pertinentes."
+    - "Apprentissage continu à partir des interactions."
+    - "Capacité à gérer une large gamme de sujets."
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=3`
 
 - **Article 4** :
   - **Titre** : "Utilisation du Chat de Mistral"
-  - **Paragraphe** : "Le Chat de Mistral peut être utilisé dans divers contextes, tels que l'assistance client, l'éducation, la recherche d'informations."
+  - **Paragraphe 1** : "Le Chat de Mistral peut être utilisé dans divers contextes, tels que l'assistance client, l'éducation, et la recherche d'informations."
+  - **Paragraphe 2** : "Il est accessible via différentes plateformes et peut être intégré dans des applications tierces pour améliorer l'expérience utilisateur."
   - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=4`
 
 - **Footer** :
   - **Paragraphe** : "&copy; 2025 Code GT - Tous droits réservés"
+  - **Liens utiles** :
+    - `<a href="#contact">Contactez-nous</a>`
+    - `<a href="#mentions">Mentions légales</a>`
 
 ## Consignes pour le SCSS
 
@@ -114,11 +126,11 @@ h2 {
 
 Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant au maximum les variables créées :
 
-- Un `header` avec un arrière-plan de couleur primaire, du padding, et le texte centré.
-- Des `article` de largeur fixe, avec margin et padding, et un `border-bottom` de couleur secondaire pour séparer les différents articles
-- Des titres `h2` de couleur secondaire.
-- Un `footer` en position fixe et `bottom` à 0 pour le caler en pied de page, puis du padding, une largeur de 100%, le texte centré, et un arrière-plan avec la couleur primaire foncée de 20%.
-- Des images centrées avec une largeur maximale de 100%.
+- **Header** : Utilisez un arrière-plan de couleur primaire, ajoutez du padding, et centrez le texte.
+- **Articles** : Donnez une largeur fixe aux articles, ajoutez des marges et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
+- **Titres `h2`** : Appliquez la couleur secondaire aux titres `h2`.
+- **Footer** : Positionnez le footer de manière fixe en bas de la page avec `bottom: 0`, ajoutez du padding, une largeur de 100%, centrez le texte, et utilisez un arrière-plan avec la couleur primaire foncée de 20%.
+- **Images** : Centrez les images et assurez-vous qu'elles ont une largeur maximale de 100%.
 
 ```scss
 $primary-color: #DD8734;
