@@ -1,4 +1,4 @@
-# Les Balises HTML Sémantiques : C'est Trop Cool !
+# Les Balises HTML Sémantiques 
 
 Les balises HTML sémantiques, c'est un peu comme donner des super-pouvoirs à ton code ! Contrairement aux balises `<div>` et `<span>`, qui sont un peu ennuyeuses et ne disent rien sur ce qu'elles contiennent, les balises sémantiques expliquent clairement ce qu'elles font. C'est comme si ton code parlait et disait : "Hé, je suis un en-tête !" ou "Regardez-moi, je suis un pied de page !". Cela rend ton code plus facile à lire et aide même les moteurs de recherche à mieux comprendre ta page.
 
