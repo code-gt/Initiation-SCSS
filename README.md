@@ -130,7 +130,8 @@ Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant a
 - **Articles** : Donnez une largeur fixe aux articles (par exemple 992px), ajoutez des marges pour les centrer et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
 - **Titres `h2`** : Appliquez la couleur secondaire au titre `h2` de votre header.
 - **Titres `h2`** : Appliquez la couleur primaire aux titres `h2` de vos articles.
-- **Paragraphes `p`** : Utilisez la taille de la variable `$font` pour vos paragraphges. Les balises`<p>` de votre footer utilisent la couleur secondaire.
+- **Paragraphes `p`** : Utilisez la taille de la variable `$font` pour vos paragraphes. Les balises`<p>` de votre footer utilisent la couleur secondaire.
+- **Lien `a`** : Utilisez la couleur primaire éclaircie de 20% et foncée de 20% au survol.
 - **Footer** : Positionnez le footer de manière fixe en bas de la page avec `bottom: 0`, ajoutez du padding, une largeur de 100%, centrez le texte, et utilisez un arrière-plan avec la couleur primaire foncée de 20%.
 - **Images** : Centrez les images et assurez-vous qu'elles ont une largeur maximale de 100%.
 
