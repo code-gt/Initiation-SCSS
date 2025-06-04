@@ -64,7 +64,7 @@ Utilisez les balises sémantiques suivantes pour structurer votre page :
 - `<article>` pour chaque section de contenu autonome.
 - `<footer>` pour le pied de page.
 
-Voici le texte à inclure dans votre HTML :
+Voici le texte à inclure dans votre HTML. Utilisez des balises `<h2>`pour vos titres.
 
  ### Texte pour le HTML
 
@@ -127,8 +127,10 @@ h2 {
 Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant au maximum les variables créées :
 
 - **Header** : Utilisez un arrière-plan de couleur primaire, ajoutez du padding, et centrez le texte.
-- **Articles** : Donnez une largeur fixe aux articles, ajoutez des marges et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
-- **Titres `h2`** : Appliquez la couleur secondaire aux titres `h2`.
+- **Articles** : Donnez une largeur fixe aux articles (par exemple 992px), ajoutez des marges pour les centrer et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
+- **Titres `h2`** : Appliquez la couleur secondaire au titre `h2` de votre header.
+- **Titres `h2`** : Appliquez la couleur primaire aux titres `h2` de vos articles.
+- **Paragraphes `p`** : Utilisez la taille de la variable `$font` pour vos paragraphges. Les balises`<p>` de votre footer utilisent la couleur secondaire.
 - **Footer** : Positionnez le footer de manière fixe en bas de la page avec `bottom: 0`, ajoutez du padding, une largeur de 100%, centrez le texte, et utilisez un arrière-plan avec la couleur primaire foncée de 20%.
 - **Images** : Centrez les images et assurez-vous qu'elles ont une largeur maximale de 100%.
 
