@@ -60,14 +60,14 @@ Pour compiler SCSS en CSS en temps réel dans Visual Studio Code, suivez ces ét
 
 ## Consignes pour le HTML
 
-Il est interdit d'utiliser un **framework** (Bootstrap ou Tailwind). Préférez les **flexbox** !
+Il est interdit d'utiliser un **framework** (Bootstrap ou Tailwind). Préférez les **flexbox** !  
 Utilisez les balises sémantiques suivantes pour structurer votre page :
 
 - `<header>` pour l'en-tête de la page.
 - `<article>` pour chaque section de contenu autonome.
 - `<footer>` pour le pied de page.
 
-La maquette est à thème libre. À vous de créer votre page sur une thématique que vous aimez !
+La maquette est à thème libre. À vous de créer votre page sur une thématique que vous aimez !  
 Utilisez des balises `<h2>`pour vos titres.
 
 ## Consignes pour le SCSS
