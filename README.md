@@ -1,5 +1,7 @@
 # Atelier SCSS : Création d'une Page Web avec SCSS
 
+**Bien lire les consignes ^^**
+
 ## Introduction à SCSS
 
 SCSS (Sassy CSS) est une extension de CSS qui permet d'utiliser des fonctionnalités avancées comme les variables, les mixins, et surtout l'imbrication. L'imbrication permet de structurer vos styles CSS de manière plus intuitive et lisible, en reflétant directement la hiérarchie du HTML. Cela rend le processus de stylisation plus efficace et maintenable.
@@ -58,51 +60,15 @@ Pour compiler SCSS en CSS en temps réel dans Visual Studio Code, suivez ces ét
 
 ## Consignes pour le HTML
 
+Il est interdit d'utiliser un **framework** (Bootstrap ou Tailwind). Préférez les **flexbox** !
 Utilisez les balises sémantiques suivantes pour structurer votre page :
 
 - `<header>` pour l'en-tête de la page.
 - `<article>` pour chaque section de contenu autonome.
 - `<footer>` pour le pied de page.
 
-Voici le texte à inclure dans votre HTML. Utilisez des balises `<h2>`pour vos titres.
-
- ### Texte pour le HTML
-
-- **Titre principal dans le header** : "Le Chat de Mistral"
-- **Paragraphe d'introduction dans le header** : "Découvrez comment cette technologie révolutionnaire change notre interaction avec les machines."
-
-- **Article 1** :
-  - **Titre** : "Qui est Le Chat de Mistral ?"
-  - **Paragraphe 1** : "Le Chat de Mistral est une application avancée d'intelligence artificielle développée pour interagir avec les utilisateurs de manière naturelle et intuitive."
-  - **Paragraphe 2** : "Grâce à des algorithmes sophistiqués, il comprend et génère du langage humain, facilitant ainsi les échanges et les interactions."
-  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=1`
-
-- **Article 2** :
-  - **Titre** : "Origines et Développement"
-  - **Paragraphe 1** : "Le Chat de Mistral a été développé par Mistral AI, une startup française basée à Paris, pionnière dans le domaine de l'IA conversationnelle."
-  - **Paragraphe 2** : "L'objectif était de créer un assistant capable de comprendre et de générer des réponses en langage naturel, en utilisant des techniques avancées de traitement automatique du langage."
-  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=2`
-
-- **Article 3** :
-  - **Titre** : "Avantages du Chat de Mistral"
-  - **Liste des avantages** :
-    - "Compréhension contextuelle des conversations."
-    - "Réponses précises et pertinentes."
-    - "Apprentissage continu à partir des interactions."
-    - "Capacité à gérer une large gamme de sujets."
-  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=3`
-
-- **Article 4** :
-  - **Titre** : "Utilisation du Chat de Mistral"
-  - **Paragraphe 1** : "Le Chat de Mistral peut être utilisé dans divers contextes, tels que l'assistance client, l'éducation, et la recherche d'informations."
-  - **Paragraphe 2** : "Il est accessible via différentes plateformes et peut être intégré dans des applications tierces pour améliorer l'expérience utilisateur."
-  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=4`
-
-- **Footer** :
-  - **Paragraphe** : "&copy; 2025 Code GT - Tous droits réservés"
-  - **Liens utiles** :
-    - `<a href="#contact">Contactez-nous</a>`
-    - `<a href="#mentions">Mentions légales</a>`
+La maquette est à thème libre. À vous de créer votre page sur une thématique que vous aimez !
+Utilisez des balises `<h2>`pour vos titres.
 
 ## Consignes pour le SCSS
 
@@ -127,7 +93,7 @@ h2 {
 Utilisez les propriétés SCSS suivantes pour styliser votre page en utilisant au maximum les variables créées :
 
 - **Header** : Utilisez un arrière-plan de couleur primaire, ajoutez du padding, et centrez le texte.
-- **Articles** : Donnez une largeur fixe aux articles (par exemple 992px), ajoutez des marges pour les centrer et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
+- **Articles** : Donnez une largeur fixe aux articles (par exemple 992px ou moins si vous faites des colonnes avec `flex`), ajoutez des marges pour les centrer et du padding, et utilisez un `border-bottom` de couleur secondaire pour les séparer.
 - **Titres `h2`** : Appliquez la couleur secondaire au titre `h2` de votre header.
 - **Titres `h2`** : Appliquez la couleur primaire aux titres `h2` de vos articles.
 - **Paragraphes `p`** : Utilisez la taille de la variable `$font` pour vos paragraphes. Les balises`<p>` de votre footer utilisent la couleur secondaire.
@@ -177,6 +143,46 @@ Une mixin est un morceau de code paramétrable et réutilisable n’importe où 
   @include button-styles($secondary-color);
 }
 ```
+
+### Texte pour le HTML
+
+Si vous n'avez pas d'idée pour votre maquette, voici une thématique exemple pouvant être utiliser.
+
+- **Titre principal dans le header** : "Le Chat de Mistral"
+- **Paragraphe d'introduction dans le header** : "Découvrez comment cette technologie révolutionnaire change notre interaction avec les machines."
+
+- **Article 1** :
+  - **Titre** : "Qui est Le Chat de Mistral ?"
+  - **Paragraphe 1** : "Le Chat de Mistral est une application avancée d'intelligence artificielle développée pour interagir avec les utilisateurs de manière naturelle et intuitive."
+  - **Paragraphe 2** : "Grâce à des algorithmes sophistiqués, il comprend et génère du langage humain, facilitant ainsi les échanges et les interactions."
+  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=1`
+
+- **Article 2** :
+  - **Titre** : "Origines et Développement"
+  - **Paragraphe 1** : "Le Chat de Mistral a été développé par Mistral AI, une startup française basée à Paris, pionnière dans le domaine de l'IA conversationnelle."
+  - **Paragraphe 2** : "L'objectif était de créer un assistant capable de comprendre et de générer des réponses en langage naturel, en utilisant des techniques avancées de traitement automatique du langage."
+  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=2`
+
+- **Article 3** :
+  - **Titre** : "Avantages du Chat de Mistral"
+  - **Liste des avantages** :
+    - "Compréhension contextuelle des conversations."
+    - "Réponses précises et pertinentes."
+    - "Apprentissage continu à partir des interactions."
+    - "Capacité à gérer une large gamme de sujets."
+  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=3`
+
+- **Article 4** :
+  - **Titre** : "Utilisation du Chat de Mistral"
+  - **Paragraphe 1** : "Le Chat de Mistral peut être utilisé dans divers contextes, tels que l'assistance client, l'éducation, et la recherche d'informations."
+  - **Paragraphe 2** : "Il est accessible via différentes plateformes et peut être intégré dans des applications tierces pour améliorer l'expérience utilisateur."
+  - **Image** : Utilisez une image aléatoire de picsum.photos : `https://picsum.photos/800/400?random=4`
+
+- **Footer** :
+  - **Paragraphe** : "&copy; 2025 Code GT - Tous droits réservés"
+  - **Liens utiles** :
+    - `<a href="#contact">Contactez-nous</a>`
+    - `<a href="#mentions">Mentions légales</a>`
 
 ## SASS
 
